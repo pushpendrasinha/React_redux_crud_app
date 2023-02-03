@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-
 const ViewStudentComponent = (props) => {
     let params = useParams();
     const id = params.id;
