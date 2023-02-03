@@ -1,3 +1,6 @@
+
+// An enhancer which logs the time taken for the reducers to process each action.
+
 const round = number => Math.round(number * 100) / 100
 
 const monitorReducerEnhancer =

@@ -1,3 +1,5 @@
+// It will log the dispatched actions and the resulting new state.
+
 const logger = store => next => action => {
     console.group(action.type)
     console.info('dispatching', action)

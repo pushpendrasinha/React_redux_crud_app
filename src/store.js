@@ -6,6 +6,7 @@ import monitorReducerEnhancer from "./services/Enhancers/monitorReducer";
 
 export default function configureStore() {
 
+    // The redux-thunk middleware, which allows simple asynchronous use of dispatch.
     const middleware = applyMiddleware(thunk, logger);
     const composedEnhancers = compose(middleware, monitorReducerEnhancer)
 
