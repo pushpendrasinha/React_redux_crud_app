@@ -7,8 +7,9 @@ import { getStudents } from './services/Actions/actions';
 
 //importing redux store and provider
 import { Provider } from 'react-redux';
-import store from './store';
+import configureStore from './store';
 
+const store = configureStore();
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 //check if the state is initialy set or not before rendering of application

@@ -1,10 +1,15 @@
-import { createStore, applyMiddleware } from "redux";
+import { createStore, applyMiddleware, compose } from "redux";
 import combineReducers from './services/Reducers/index';
 import thunk from "redux-thunk";
+import logger from "./services/Middleware/logger";
+import monitorReducerEnhancer from "./services/Enhancers/monitorReducer";
 
-const middleware = [thunk];
+export default function configureStore() {
 
-const store = createStore(combineReducers,
-    applyMiddleware(thunk));
+    const middleware = applyMiddleware(thunk, logger);
+    const composedEnhancers = compose(middleware, monitorReducerEnhancer)
 
-export default store;
+    const store = createStore(combineReducers, composedEnhancers)
+
+    return store
+}

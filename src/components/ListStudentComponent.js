@@ -11,7 +11,7 @@ const ListStudentComponent = (props) => {
     const getStudents = () => {
         props.getStudents().then(res => {
             setStudents(res.payload.students);
-            console.log(res.payload.students, "Redux working");
+            // console.log(res.payload.students, "Redux working");
         })
     }
 
