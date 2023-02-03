@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Instruction to run JSON-server as fake backend API
+in CMD :- json-server --watch students.json --port 5000
+
 ## Available Scripts
 
 In the project directory, you can run:
