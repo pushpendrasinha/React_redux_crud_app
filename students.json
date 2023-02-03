@@ -1,0 +1,81 @@
+{
+  "students": [
+    {
+      "firstname": "Ankit",
+      "middlename": "kumar",
+      "lastname": "Sinha",
+      "email": "push@email.com",
+      "mobile": "1234567890",
+      "address": "Bishunpur",
+      "city": "Rajpur",
+      "state": "BanglaDesh",
+      "id": 1
+    },
+    {
+      "firstname": "Navodita",
+      "middlename": "",
+      "lastname": "Rao",
+      "email": "navo@email.com",
+      "mobile": "12121",
+      "address": "New Jharia",
+      "city": "Dhanbad",
+      "state": "Maharashtra",
+      "id": 2
+    },
+    {
+      "firstname": "Santosh",
+      "middlename": "kumar",
+      "lastname": "Singh",
+      "email": "santosh@email.com",
+      "mobile": "456789",
+      "address": "Mg road",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "id": 3
+    },
+    {
+      "firstname": "Murari",
+      "middlename": "",
+      "lastname": "Yadav",
+      "email": "murari@email.com",
+      "mobile": "123456789",
+      "address": "Sector 4",
+      "city": "Bokaro",
+      "state": "Jharkhand",
+      "id": 6
+    },
+    {
+      "firstname": "Jignesh",
+      "middlename": "",
+      "lastname": "Mahto",
+      "email": "jig@email.com",
+      "mobile": "1211221",
+      "address": "",
+      "city": "",
+      "state": "",
+      "id": 8
+    },
+    {
+      "firstname": "Professor",
+      "middlename": "",
+      "lastname": "Xavier",
+      "email": "xav@email.com",
+      "mobile": "34556",
+      "address": "X-men academy",
+      "city": "Atlantica",
+      "state": "USA",
+      "id": 9
+    },
+    {
+      "firstname": "Hugh",
+      "middlename": "",
+      "lastname": "Jackman",
+      "email": "hug@email.com",
+      "mobile": "9078322",
+      "address": "Rohini, sctor 11",
+      "city": "Delhi",
+      "state": "Bihar",
+      "id": 10
+    }
+  ]
+}
